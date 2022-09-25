@@ -11,7 +11,27 @@ The call() method can accept arguments. But the first argument must always write
 
 ## call() method writing syntax:-
 
+Use only object:-
+
 parentObjectName.functionName.call(objectName);
 
-# function apply() method:- 
+Use object and argument:-
+
+parentObjectName.functionName.call(objectName, 'Feni', 'Bangaldesh');
+
+
+# function apply() method:-
+
+The apply() method is similar to the call() method.
+
+## The difference between call() & apply() method
+
+The call() method takes arguments separately.
+
+example: parentObjectName.functionName.call(objectName, 'Feni', 'Bangaldesh');
+
+The apply() method takes arguments as an array.
+
+example: parentObjectName.functionName.call(objectName, ['Feni', 'Bangladesh']);
+
  
