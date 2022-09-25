@@ -20,6 +20,7 @@ Use object and argument:-
 parentObjectName.functionName.call(objectName, 'Feni', 'Bangaldesh');
 
 
+
 # function apply() method:-
 
 The apply() method is similar to the call() method.
