@@ -23,16 +23,14 @@ parentObjectName.functionName.call(objectName, 'Feni', 'Bangaldesh');
 
 # function apply() method:-
 
-1. The apply() method is similar to the call() method.
+The apply() method is similar to the call() method.
 
 ## The difference between call() & apply() method
 
-2. The call() method takes arguments separately.
+1. The call() method takes arguments separately.
+   example: parentObjectName.functionName.call(objectName, 'Feni', 'Bangaldesh');
 
-example: parentObjectName.functionName.call(objectName, 'Feni', 'Bangaldesh');
-
-The apply() method takes arguments as an array.
-
-example: parentObjectName.functionName.call(objectName, ['Feni', 'Bangladesh']);
+2. The apply() method takes arguments as an array.
+   example: parentObjectName.functionName.call(objectName, ['Feni', 'Bangladesh']);
 
  
