@@ -10,5 +10,5 @@ The call() method can accept arguments. But the first argument must always write
 
 # call() method writing syntax:-
 
-parentObjectNam.functionName.cal(objectName);
+parentObjectName.functionName.cal(objectName);
  
